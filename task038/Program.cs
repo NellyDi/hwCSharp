@@ -11,6 +11,7 @@ double[] GetArray(int size)
         res[i] = random.NextDouble() * 100;
         Console.Write($"{res[i]:F2} ");
     }
+    
     return res;
 }
 
