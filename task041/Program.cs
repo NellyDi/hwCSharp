@@ -18,4 +18,4 @@ int Count()
     return count;
 }
 
-Console.WriteLine(Count());
+Console.WriteLine($"Количество чисел больше нуля: {Count()}");
